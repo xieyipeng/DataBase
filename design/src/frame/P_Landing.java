@@ -32,7 +32,7 @@ public class P_Landing extends JFrame{
     public static final String user[] = {"系统管理员", "气象部门工作人员", "普通用户", "统计人员"};
 
     private P_Landing() {
-        loadingFrame =new JFrame("城市天气管理系统");
+        loadingFrame =new JFrame("Loading");
         JLabel loadingLabel = new JLabel();
         ImageIcon bgim = new ImageIcon(P_Landing.class.getResource("Loading.png")) ;
         bgim.setImage(bgim.getImage().getScaledInstance(bgim.getIconWidth(), bgim.getIconHeight(), Image.SCALE_DEFAULT));

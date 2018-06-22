@@ -27,11 +27,6 @@ public class MainTest {
     public static void main(String[] args) {
         int user = initUser();
         String city = joinCity();//输入城市名称
-        Weather weather = new Weather();
-        List<Forecast> forecasts = new ArrayList<>();
-        parse(city, weather, forecasts);//解析json,向weather和forecasts里面添加数据。
-        initCity(user);//已经添加好了。
-        addData(city, weather, forecasts);
     }
 
     private static int initUser() {
@@ -176,49 +171,6 @@ public class MainTest {
             return null;
         } else {
             return city;
-        }
-    }
-
-    /**
-     * 解析json
-     * @param city 解析
-     * @param weather 天气
-     * @param forecasts 预测天气
-     */
-    private static void parse(String city, Weather weather, List<Forecast> forecasts) {
-        String result = HttpRequest.sendGet(WEATHER_JSON_URL + city);
-        JsonParser parser = new JsonParser();
-        try {
-            JsonObject object = (JsonObject) parser.parse(result);
-            weather.setWeatherDate(object.get("date").getAsString());//日期
-            weather.setWeatherCity(object.get("city").getAsString());//城市
-            /**
-             * 获得预期的天气信息
-             */
-            JsonObject data = object.get("data").getAsJsonObject();
-            weather.setShidu(data.get("shidu").getAsString());//湿度
-            int a = data.get("pm25").getAsInt();
-            weather.setPm25(String.valueOf(a));//pm2.5
-            weather.setQuality(data.get("quality").getAsString());//quality
-            weather.setWendu(data.get("wendu").getAsString());//温度
-            JsonArray forecast = data.get("forecast").getAsJsonArray();
-            for (int i = 0; i < forecast.size(); i++) {
-                JsonObject subObject = forecast.get(i).getAsJsonObject();
-                Forecast f = new Forecast();
-                f.setWeek(subObject.get("date").getAsString());
-                f.setSunrise(subObject.get("sunrise").getAsString());
-                f.setSunset(subObject.get("sunset").getAsString());
-                f.setHigh(subObject.get("high").getAsString());
-                f.setLow(subObject.get("low").getAsString());
-                f.setAqi(subObject.get("aqi").getAsString());
-                f.setFengxiang(subObject.get("fx").getAsString());
-                f.setFenglevel(subObject.get("fl").getAsString());
-                f.setType(subObject.get("type").getAsString());
-                f.setNotice(subObject.get("notice").getAsString());
-                forecasts.add(f);
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
         }
     }
 }

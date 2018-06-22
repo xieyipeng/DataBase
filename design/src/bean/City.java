@@ -1,12 +1,11 @@
 package bean;
 
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.LineNumberReader;
-import java.io.UnsupportedEncodingException;
-import java.net.*;
+import com.google.gson.JsonArray;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
+
+import java.io.*;
 import java.util.ArrayList;
-import java.util.Enumeration;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -30,9 +29,85 @@ public class City {
 //        }
 //        System.out.println(list2);
 
+        getCityJson("澳门");
+        System.out.println("*******");
     }
-    private static void parse() {
 
+    /**
+     * 获得市
+     * @param province
+     * @return
+     */
+    public static List<String> getCityJson(String province) {
+        List<String> city=new ArrayList<>();
+        JsonParser parser = new JsonParser();
+        JsonObject object = (JsonObject) parser.parse(getJson());
+        JsonArray zone = object.get("zone").getAsJsonArray();
+        for (int i = 0; i < zone.size(); i++) {
+            JsonObject jsonObject = zone.get(i).getAsJsonObject();
+            if (jsonObject.get("name").getAsString().equals(province)){
+                JsonArray smallZone=jsonObject.get("zone").getAsJsonArray();
+                if (province.equals("上海")|province.equals("澳门")|province.equals("重庆")|province.equals("北京")|province.equals("天津")|province.equals("香港")){
+                    JsonObject smallCity=smallZone.get(0).getAsJsonObject();
+                    JsonArray ssmallZone=smallCity.get("zone").getAsJsonArray();
+                    for (int j = 0; j < ssmallZone.size(); j++) {
+                        JsonObject smallCity1=ssmallZone.get(j).getAsJsonObject();
+                        city.add(smallCity1.get("name").getAsString());
+                    }
+                }else {
+                    for (int j = 0; j < smallZone.size(); j++) {
+                        JsonObject smallCity=smallZone.get(j).getAsJsonObject();
+                        city.add(smallCity.get("name").getAsString());
+                    }
+                }
+            }
+        }
+        return city;
+    }
+
+
+    /**
+     * 从json中获取到省的信息
+     *
+     * @return
+     */
+    public static List<String> getProvinceFromJson() {
+        List<String> province = new ArrayList<>();
+        JsonParser parser = new JsonParser();
+        JsonObject object = (JsonObject) parser.parse(getJson());
+        JsonArray zone = object.get("zone").getAsJsonArray();
+        for (int i = 0; i < zone.size(); i++) {
+            JsonObject jsonObject = zone.get(i).getAsJsonObject();
+            province.add(jsonObject.get("name").getAsString());
+        }
+        return province;
+    }
+
+    private static String getJson() {
+        String path = "F:\\github\\DataBase\\design\\src\\web\\city.json";
+        String result = "";
+        File file = new File(path);
+        BufferedReader bufferedReade = null;
+        try {
+            FileInputStream inputStream = new FileInputStream(file);
+            bufferedReade = new BufferedReader(new InputStreamReader(inputStream, "UTF-8"));
+            String temp;
+            while ((temp = bufferedReade.readLine()) != null) {
+                result = result + temp;
+            }
+            bufferedReade.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            if (bufferedReade != null) {
+                try {
+                    bufferedReade.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+        return result;
     }
 
 
