@@ -4,7 +4,6 @@ public class Weather {
     private String weatherDate;
     private String weatherCity;
     private String shidu;
-    private String pm25;
     private String quality;
     private String wendu;
 
@@ -30,14 +29,6 @@ public class Weather {
 
     public void setShidu(String shidu) {
         this.shidu = shidu;
-    }
-
-    public String getPm25() {
-        return "\'"+pm25+"\'";
-    }
-
-    public void setPm25(String pm25) {
-        this.pm25 = pm25;
     }
 
     public String getQuality() {

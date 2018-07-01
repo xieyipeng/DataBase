@@ -9,11 +9,11 @@ import java.awt.event.ActionListener;
 import java.sql.*;
 import java.util.Objects;
 
-public class P_Login extends JFrame {
+public class Login extends JFrame {
 
-    private static final String DBURL = "jdbc:sqlserver://localhost:1433;databaseName=design";
-    private static final String userNameSQL = "xieyipeng";
-    private static final String userPwd = "123456";
+    public static final String DBURL = "jdbc:sqlserver://localhost:1433;databaseName=design";
+    public static final String userNameSQL = "xieyipeng";
+    public static final String userPwd = "123456";
 
     private static JFrame loginFrame;
     private static JTextField userName;
@@ -23,10 +23,10 @@ public class P_Login extends JFrame {
     private static JComboBox<String> userChoose;
     public static final String user[] = {"系统管理员", "气象部门工作人员", "普通用户", "统计人员"};
 
-    public P_Login() {
+    public Login() {
         loginFrame = new JFrame("注册");
 
-        ImageIcon bgim = new ImageIcon(P_Landing.class.getResource("login.png"));
+        ImageIcon bgim = new ImageIcon(Landing.class.getResource("/frame/icon/login.png"));
         bgim.setImage(bgim.getImage().getScaledInstance(bgim.getIconWidth(), bgim.getIconHeight(), Image.SCALE_DEFAULT));
         JLabel loginLabel = new JLabel();
         loginLabel.setIcon(bgim);
@@ -68,7 +68,7 @@ public class P_Login extends JFrame {
     }
 
     public static void main(String[] args) {
-
+        new Login();
     }
 
     private static void initClicks() {
@@ -88,26 +88,24 @@ public class P_Login extends JFrame {
                             try {
                                 connection = DriverManager.getConnection(DBURL, userNameSQL, userPwd);
                                 statement = connection.createStatement();
-                                String select="SELECT *" +
+                                String select = "SELECT *" +
                                         "FROM management " +
-                                        "WHERE management.userName="+name;
+                                        "WHERE management.userName=" + name;
                                 resultSet = statement.executeQuery(select);
-                                if (resultSet.next()){
+                                if (resultSet.next()) {
                                     new MineDialog("该用户名已被注册过，请选用新的用户名");
                                     System.out.println("相同用户名");
-                                }else {
+                                } else {
                                     String SQL = "INSERT INTO management(userName,wordPass)" +
-                                            "values("+name+","+password+")";
+                                            "values(" + name + "," + password + ")";
                                     statement.executeUpdate(SQL);
-                                    System.out.println("注册信息插入成功");
                                     new MineDialog("注册成功，账号信息已添加到数据库。");
                                     loginFrame.dispose();
                                 }
                                 connection.close();
                             } catch (SQLException e1) {
                                 e1.printStackTrace();
-                            }
-                            finally {
+                            } finally {
                                 if (statement != null) {
                                     try {
                                         statement.close();
@@ -125,6 +123,42 @@ public class P_Login extends JFrame {
                             }
                             break;
                         case "普通用户":
+                            try {
+                                connection = DriverManager.getConnection(DBURL, userNameSQL, userPwd);
+                                statement = connection.createStatement();
+                                String select = "SELECT *" +
+                                        "FROM ordinaryUser " +
+                                        "WHERE ordinaryUser.userName=" + name;
+                                resultSet = statement.executeQuery(select);
+                                if (resultSet.next()) {
+                                    new MineDialog("该用户名已被注册过，请选用新的用户名");
+                                    System.out.println("相同用户名");
+                                } else {
+                                    String SQL = "INSERT INTO ordinaryUser(userName,wordPass)" +
+                                            "values(" + name + "," + password + ")";
+                                    statement.executeUpdate(SQL);
+                                    new MineDialog("注册成功，账号信息已添加到数据库。");
+                                    loginFrame.dispose();
+                                }
+                                connection.close();
+                            } catch (SQLException e1) {
+                                e1.printStackTrace();
+                            } finally {
+                                if (statement != null) {
+                                    try {
+                                        statement.close();
+                                    } catch (SQLException e2) {
+                                        e2.printStackTrace();
+                                    }
+                                }
+                                if (connection != null) {
+                                    try {
+                                        connection.close();
+                                    } catch (SQLException e1) {
+                                        e1.printStackTrace();
+                                    }
+                                }
+                            }
                             break;
                         default:
                             break;

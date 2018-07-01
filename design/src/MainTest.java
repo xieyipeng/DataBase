@@ -131,7 +131,7 @@ public class MainTest {
                 city = "\'" + city + "\'";
                 String SQL = "INSERT INTO weather(weather_date,city,shidu,pm25,quality,wendu,sunrise,sunset,weather_type,notice,weather_week,high,low)" +
                         "VALUES (" + weather.getWeatherDate() + "," + city + "," + weather.getShidu() + "," +
-                        weather.getPm25() + "," + weather.getQuality() + "," + weather.getWendu() + "," +
+                        weather.getQuality() + "," + weather.getWendu() + "," +
                         forecasts.get(0).getSunrise() + "," + forecasts.get(0).getSunset() + "," +
                         forecasts.get(0).getType() + "," + forecasts.get(0).getNotice() + "," +
                         forecasts.get(0).getWeek() + "," + forecasts.get(0).getHigh() + "," + forecasts.get(0).getLow() + ")";

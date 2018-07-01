@@ -10,8 +10,8 @@ public class MineDialog {
     public MineDialog(String text){
         mineDialogFrame = new JFrame("MineDialog");
         mineDialogFrame.setSize(300,150);
-        JTextField loginAgainText=new JTextField(text);
-        loginAgainText.setBounds(20,30,245,30);
+        JLabel loginAgainText=new JLabel(text);
+        loginAgainText.setBounds(20,20,245,30);
 
         okMineDialog =new JButton("确定");
         okMineDialog.setBounds(100,60,100,30);
@@ -35,9 +35,5 @@ public class MineDialog {
                 mineDialogFrame.dispose();
             }
         });
-    }
-
-    public static void main(String[] args) {
-
     }
 }
