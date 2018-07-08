@@ -259,6 +259,7 @@ public class Main extends JFrame {
                 break;
             case "'雷阵雨'":
             case "'小雨'":
+                System.out.println("小雨");
                 ImageIcon image3 = new ImageIcon(Main.class.getResource("/frame/icon/rainBig.png"));
                 image3.setImage(image3.getImage().getScaledInstance(image3.getIconWidth(), image3.getIconHeight(), Image.SCALE_DEFAULT));
                 bigIcon.setBounds(105, 60, 150, 150);
@@ -333,8 +334,8 @@ public class Main extends JFrame {
             case "'小雨'":
                 ImageIcon image3 = new ImageIcon(Main.class.getResource("/frame/icon/rain.png"));
                 image3.setImage(image3.getImage().getScaledInstance(image3.getIconWidth(), image3.getIconHeight(), Image.SCALE_DEFAULT));
-                bigIcon.setBounds(105, 60, 150, 150);
-                bigIcon.setIcon(image3);
+                bigIcon1.setBounds(398, 115, 100, 100);
+                bigIcon1.setIcon(image3);
                 break;
             default:
                 break;
@@ -406,8 +407,8 @@ public class Main extends JFrame {
             case "'小雨'":
                 ImageIcon image3 = new ImageIcon(Main.class.getResource("/frame/icon/rain.png"));
                 image3.setImage(image3.getImage().getScaledInstance(image3.getIconWidth(), image3.getIconHeight(), Image.SCALE_DEFAULT));
-                bigIcon.setBounds(105, 60, 150, 150);
-                bigIcon.setIcon(image3);
+                bigIcon2.setBounds(565, 115, 100, 100);
+                bigIcon2.setIcon(image3);
                 break;
             default:
                 break;
@@ -550,8 +551,8 @@ public class Main extends JFrame {
             case "'小雨'":
                 ImageIcon image3 = new ImageIcon(Main.class.getResource("/frame/icon/rain.png"));
                 image3.setImage(image3.getImage().getScaledInstance(image3.getIconWidth(), image3.getIconHeight(), Image.SCALE_DEFAULT));
-                bigIcon.setBounds(105, 60, 150, 150);
-                bigIcon.setIcon(image3);
+                bigIcon4.setBounds(880, 115, 100, 100);
+                bigIcon4.setIcon(image3);
                 break;
             default:
                 break;

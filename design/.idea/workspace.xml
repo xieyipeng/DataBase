@@ -30,22 +30,20 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/frame/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="476" column="5" lean-forward="true" selection-start-line="476" selection-start-column="5" selection-end-line="476" selection-end-column="5" />
+            <state relative-caret-position="305">
+              <caret line="549" column="25" lean-forward="true" selection-start-line="549" selection-start-column="25" selection-end-line="549" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#5712#5713#0" expanded="true" />
                 <element signature="e#5765#5766#0" expanded="true" />
                 <element signature="e#5840#5841#0" expanded="true" />
                 <element signature="e#5892#5893#0" expanded="true" />
-                <element signature="method#setJLabel1#0;class#Main#0" expanded="false" />
                 <element signature="method#getLabel2#0;class#Main#0" expanded="false" />
                 <element signature="method#setJLabel2#0;class#Main#0" expanded="false" />
                 <element signature="method#getLabel3#0;class#Main#0" expanded="false" />
                 <element signature="method#setJLabel3#0;class#Main#0" expanded="false" />
                 <element signature="method#setJLabel4#0;class#Main#0" expanded="false" />
                 <element signature="method#getLabel4#0;class#Main#0" expanded="false" />
-                <element signature="method#addLabel#0;class#Main#0" expanded="false" />
                 <element signature="method#changeAqi#0;class#Main#0" expanded="false" />
                 <element signature="method#changeFengLi#0;class#Main#0" expanded="false" />
                 <element signature="method#changeFengXiang#0;class#Main#0" expanded="false" />
@@ -58,11 +56,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Manage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Login.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/frame/Login.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+              <folding>
+                <marker date="1530148217956" expanded="true" signature="3410:3550" ph="SELECT *FROM... management" />
+                <marker date="1530148217956" expanded="true" signature="3922:4049" ph="INSERT INTO management... " />
+                <marker date="1530148217956" expanded="true" signature="5561:5705" ph="SELECT *FROM... ordinaryUser" />
+                <marker date="1530148217956" expanded="true" signature="6077:6206" ph="INSERT INTO ordinaryUser... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Manage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/frame/Manage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="966" column="22" lean-forward="true" selection-start-line="966" selection-start-column="22" selection-end-line="966" selection-end-column="22" />
+            <state relative-caret-position="561">
+              <caret line="500" column="28" lean-forward="false" selection-start-line="500" selection-start-column="28" selection-end-line="500" selection-end-column="28" />
               <folding>
                 <element signature="e#7493#7537#0" expanded="false" />
                 <element signature="e#26917#26977#0" expanded="false" />
@@ -71,7 +84,6 @@
                 <element signature="e#36295#36346#0" expanded="false" />
                 <marker date="1530461909596" expanded="true" signature="4941:4962" ph="SELECT * FRO... weather" />
                 <marker date="1530461909596" expanded="true" signature="12908:12929" ph="SELECT * FRO... weather" />
-                <marker date="1530461909596" expanded="true" signature="20067:20643" ph="INSERT INTO weather... " />
                 <marker date="1530461909596" expanded="true" signature="20067:20748" ph="INSERT INTO weather... " />
                 <marker date="1530461909596" expanded="true" signature="20996:21017" ph="SELECT * FRO... weather" />
                 <marker date="1530461909596" expanded="true" signature="21345:21366" ph="SELECT * FRO... weather" />
@@ -88,7 +100,7 @@
       <file leaf-file-name="Weather.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bean/Weather.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
+            <state relative-caret-position="150">
               <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
               <folding />
             </state>
@@ -108,19 +120,23 @@
       <file leaf-file-name="test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="225">
+              <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Landing.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Landing.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/frame/Landing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="35" column="72" lean-forward="false" selection-start-line="35" selection-start-column="72" selection-end-line="35" selection-end-column="72" />
+            <state relative-caret-position="220">
+              <caret line="198" column="5" lean-forward="true" selection-start-line="198" selection-start-column="5" selection-end-line="198" selection-end-column="5" />
               <folding>
+                <element signature="e#2850#2851#0" expanded="true" />
+                <element signature="e#2879#2880#0" expanded="true" />
+                <element signature="e#8186#8187#0" expanded="true" />
+                <element signature="e#8240#8241#0" expanded="true" />
                 <marker date="1529666234627" expanded="true" signature="3999:4131" ph="select *FROM... management" />
                 <marker date="1529666234627" expanded="true" signature="5793:5929" ph="select *FROM... ordinaryUser" />
               </folding>
@@ -178,8 +194,8 @@
         <option value="$PROJECT_DIR$/src/bean/Weather.java" />
         <option value="$PROJECT_DIR$/src/bean/City.java" />
         <option value="$PROJECT_DIR$/src/MainTest.java" />
-        <option value="$PROJECT_DIR$/src/test.java" />
         <option value="$PROJECT_DIR$/src/frame/Manage.java" />
+        <option value="$PROJECT_DIR$/src/test.java" />
         <option value="$PROJECT_DIR$/src/frame/Main.java" />
       </list>
     </option>
@@ -266,6 +282,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -296,18 +313,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="design" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -538,10 +550,10 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Application.Landing" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Manage" />
-        <item index="2" class="java.lang.String" itemvalue="Application.test" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Manage" />
         <item index="3" class="java.lang.String" itemvalue="Application.Login" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="4" class="java.lang.String" itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -586,11 +598,16 @@
       <workItem from="1530365615595" duration="874000" />
       <workItem from="1530366527675" duration="3988000" />
       <workItem from="1530443007992" duration="16984000" />
+      <workItem from="1530463757871" duration="2000" />
+      <workItem from="1530493143687" duration="2244000" />
+      <workItem from="1530516764734" duration="3152000" />
+      <workItem from="1530548507927" duration="145000" />
+      <workItem from="1530603757930" duration="3896000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="211198000" />
+    <option name="totallyTimeSpent" value="220637000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -618,9 +635,9 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19616205" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20255864" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2553305" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26066098" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -647,20 +664,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/reference/Lognin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="12" column="57" lean-forward="true" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.desktop/java/awt/Window.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1018">
-          <caret line="922" column="43" lean-forward="true" selection-start-line="922" selection-start-column="43" selection-end-line="922" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/frame/LoginAgain.java" />
     <entry file="file://$PROJECT_DIR$/src/frame/SameName.java" />
     <entry file="file://$PROJECT_DIR$/src/tools/LOCALMAC.java" />
@@ -687,16 +690,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/frame/Loading.png" />
     <entry file="file://$PROJECT_DIR$/src/frame/icon/main.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/frame/icon/sunnyBig.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/frame/icon/sunny.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -751,7 +744,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
           <caret line="518" column="9" lean-forward="false" selection-start-line="518" selection-start-column="9" selection-end-line="518" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -766,7 +758,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="133" column="16" lean-forward="false" selection-start-line="133" selection-start-column="16" selection-end-line="133" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -833,24 +824,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/frame/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="135" column="40" lean-forward="true" selection-start-line="135" selection-start-column="40" selection-end-line="135" selection-end-column="40" />
-          <folding>
-            <marker date="1530148217956" expanded="true" signature="3410:3550" ph="SELECT *FROM... management" />
-            <marker date="1530148217956" expanded="true" signature="3922:4049" ph="INSERT INTO management... " />
-            <marker date="1530148217956" expanded="true" signature="5561:5705" ph="SELECT *FROM... ordinaryUser" />
-            <marker date="1530148217956" expanded="true" signature="6077:6206" ph="INSERT INTO ordinaryUser... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.sql/java/sql/ResultSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="175" column="7" lean-forward="false" selection-start-line="175" selection-start-column="7" selection-end-line="175" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -863,12 +840,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
           <caret line="167" column="47" lean-forward="false" selection-start-line="167" selection-start-column="47" selection-end-line="167" selection-end-column="47" />
-          <folding>
-            <element signature="e#5536#5537#0" expanded="false" />
-            <element signature="e#5584#5585#0" expanded="false" />
-            <element signature="e#12351#12352#0" expanded="false" />
-            <element signature="e#12400#12401#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -876,7 +847,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
           <caret line="923" column="16" lean-forward="false" selection-start-line="923" selection-start-column="16" selection-end-line="923" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -884,11 +854,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="62" column="79" lean-forward="true" selection-start-line="62" selection-start-column="79" selection-end-line="62" selection-end-column="79" />
-          <folding>
-            <marker date="1530332572222" expanded="true" signature="2076:2165" ph="select *FROM... city" />
-            <marker date="1530332572222" expanded="true" signature="2633:2816" ph="INSERT INTO city... " />
-            <marker date="1530332572222" expanded="true" signature="4395:5028" ph="INSERT INTO weather... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -896,10 +861,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
           <caret line="800" column="15" lean-forward="false" selection-start-line="800" selection-start-column="15" selection-end-line="800" selection-end-column="15" />
-          <folding>
-            <element signature="e#33572#33573#0" expanded="false" />
-            <element signature="e#33598#33599#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -907,16 +868,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
           <caret line="762" column="15" lean-forward="false" selection-start-line="762" selection-start-column="15" selection-end-line="762" selection-end-column="15" />
-          <folding>
-            <element signature="e#33701#33702#0" expanded="false" />
-            <element signature="e#33744#33745#0" expanded="false" />
-            <element signature="e#34208#34209#0" expanded="false" />
-            <element signature="e#34246#34247#0" expanded="false" />
-            <element signature="e#34477#34478#0" expanded="false" />
-            <element signature="e#34520#34521#0" expanded="false" />
-            <element signature="e#36179#36180#0" expanded="false" />
-            <element signature="e#36218#36219#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -924,10 +875,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
           <caret line="881" column="16" lean-forward="false" selection-start-line="881" selection-start-column="16" selection-end-line="881" selection-end-column="16" />
-          <folding>
-            <element signature="e#37393#37394#0" expanded="false" />
-            <element signature="e#37429#37430#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -939,29 +886,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.desktop/javax/swing/JTable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
           <caret line="2727" column="18" lean-forward="false" selection-start-line="2727" selection-start-column="18" selection-end-line="2727" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/frame/icon/manage.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.desktop/java/awt/Image.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="181" column="47" lean-forward="false" selection-start-line="181" selection-start-column="47" selection-end-line="181" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/frame/Landing.java">
+    <entry file="file://$PROJECT_DIR$/src/bean/Weather.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="35" column="72" lean-forward="false" selection-start-line="35" selection-start-column="72" selection-end-line="35" selection-end-column="72" />
+        <state relative-caret-position="150">
+          <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/frame/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
           <folding>
-            <marker date="1529666234627" expanded="true" signature="3999:4131" ph="select *FROM... management" />
-            <marker date="1529666234627" expanded="true" signature="5793:5929" ph="select *FROM... ordinaryUser" />
+            <marker date="1530148217956" expanded="true" signature="3410:3550" ph="SELECT *FROM... management" />
+            <marker date="1530148217956" expanded="true" signature="3922:4049" ph="INSERT INTO management... " />
+            <marker date="1530148217956" expanded="true" signature="5561:5705" ph="SELECT *FROM... ordinaryUser" />
+            <marker date="1530148217956" expanded="true" signature="6077:6206" ph="INSERT INTO ordinaryUser... " />
           </folding>
         </state>
       </provider>
@@ -976,37 +944,61 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bean/Weather.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/frame/icon/manage.png">
+    <entry file="file://$PROJECT_DIR$/src/frame/icon/snow.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/frame/icon/sunny.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/frame/icon/sunnyBig.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/frame/Manage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="500" column="28" lean-forward="false" selection-start-line="500" selection-start-column="28" selection-end-line="500" selection-end-column="28" />
+          <folding>
+            <element signature="e#7493#7537#0" expanded="false" />
+            <element signature="e#26917#26977#0" expanded="false" />
+            <element signature="e#28954#29024#0" expanded="false" />
+            <element signature="e#32803#32816#0" expanded="false" />
+            <element signature="e#36295#36346#0" expanded="false" />
+            <marker date="1530461909596" expanded="true" signature="4941:4962" ph="SELECT * FRO... weather" />
+            <marker date="1530461909596" expanded="true" signature="12908:12929" ph="SELECT * FRO... weather" />
+            <marker date="1530461909596" expanded="true" signature="20067:20748" ph="INSERT INTO weather... " />
+            <marker date="1530461909596" expanded="true" signature="20996:21017" ph="SELECT * FRO... weather" />
+            <marker date="1530461909596" expanded="true" signature="21345:21366" ph="SELECT * FRO... weather" />
+            <marker date="1530461909596" expanded="true" signature="23861:23990" ph="DELETE FROM weather... " />
+            <marker date="1530461909596" expanded="true" signature="24232:24253" ph="SELECT * FRO... weather" />
+            <marker date="1530461909596" expanded="true" signature="24588:24609" ph="SELECT * FRO... weather" />
+            <marker date="1530461909596" expanded="true" signature="27716:27737" ph="SELECT * FRO... weather" />
+            <marker date="1530461909596" expanded="true" signature="34318:34339" ph="SELECT * FRO... weather" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/frame/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="476" column="5" lean-forward="true" selection-start-line="476" selection-start-column="5" selection-end-line="476" selection-end-column="5" />
+        <state relative-caret-position="305">
+          <caret line="549" column="25" lean-forward="true" selection-start-line="549" selection-start-column="25" selection-end-line="549" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#5712#5713#0" expanded="true" />
             <element signature="e#5765#5766#0" expanded="true" />
             <element signature="e#5840#5841#0" expanded="true" />
             <element signature="e#5892#5893#0" expanded="true" />
-            <element signature="method#setJLabel1#0;class#Main#0" expanded="false" />
             <element signature="method#getLabel2#0;class#Main#0" expanded="false" />
             <element signature="method#setJLabel2#0;class#Main#0" expanded="false" />
             <element signature="method#getLabel3#0;class#Main#0" expanded="false" />
             <element signature="method#setJLabel3#0;class#Main#0" expanded="false" />
             <element signature="method#setJLabel4#0;class#Main#0" expanded="false" />
             <element signature="method#getLabel4#0;class#Main#0" expanded="false" />
-            <element signature="method#addLabel#0;class#Main#0" expanded="false" />
             <element signature="method#changeAqi#0;class#Main#0" expanded="false" />
             <element signature="method#changeFengLi#0;class#Main#0" expanded="false" />
             <element signature="method#changeFengXiang#0;class#Main#0" expanded="false" />
@@ -1018,27 +1010,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/frame/Manage.java">
+    <entry file="file://$PROJECT_DIR$/src/frame/Landing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="966" column="22" lean-forward="true" selection-start-line="966" selection-start-column="22" selection-end-line="966" selection-end-column="22" />
+        <state relative-caret-position="220">
+          <caret line="198" column="5" lean-forward="true" selection-start-line="198" selection-start-column="5" selection-end-line="198" selection-end-column="5" />
           <folding>
-            <element signature="e#7493#7537#0" expanded="false" />
-            <element signature="e#26917#26977#0" expanded="false" />
-            <element signature="e#28954#29024#0" expanded="false" />
-            <element signature="e#32803#32816#0" expanded="false" />
-            <element signature="e#36295#36346#0" expanded="false" />
-            <marker date="1530461909596" expanded="true" signature="4941:4962" ph="SELECT * FRO... weather" />
-            <marker date="1530461909596" expanded="true" signature="12908:12929" ph="SELECT * FRO... weather" />
-            <marker date="1530461909596" expanded="true" signature="20067:20643" ph="INSERT INTO weather... " />
-            <marker date="1530461909596" expanded="true" signature="20067:20748" ph="INSERT INTO weather... " />
-            <marker date="1530461909596" expanded="true" signature="20996:21017" ph="SELECT * FRO... weather" />
-            <marker date="1530461909596" expanded="true" signature="21345:21366" ph="SELECT * FRO... weather" />
-            <marker date="1530461909596" expanded="true" signature="23861:23990" ph="DELETE FROM weather... " />
-            <marker date="1530461909596" expanded="true" signature="24232:24253" ph="SELECT * FRO... weather" />
-            <marker date="1530461909596" expanded="true" signature="24588:24609" ph="SELECT * FRO... weather" />
-            <marker date="1530461909596" expanded="true" signature="27716:27737" ph="SELECT * FRO... weather" />
-            <marker date="1530461909596" expanded="true" signature="34318:34339" ph="SELECT * FRO... weather" />
+            <element signature="e#2850#2851#0" expanded="true" />
+            <element signature="e#2879#2880#0" expanded="true" />
+            <element signature="e#8186#8187#0" expanded="true" />
+            <element signature="e#8240#8241#0" expanded="true" />
+            <marker date="1529666234627" expanded="true" signature="3999:4131" ph="select *FROM... management" />
+            <marker date="1529666234627" expanded="true" signature="5793:5929" ph="select *FROM... ordinaryUser" />
           </folding>
         </state>
       </provider>

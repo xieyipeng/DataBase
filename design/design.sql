@@ -28,5 +28,3 @@ create table ordinaryUser(
 userName char(20) primary key,
 wordPass char(20)
 )
-insert into management(userName,wordPass)
-values('123','123')
