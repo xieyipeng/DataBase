@@ -1,7 +1,8 @@
 <component name="libraryTable">
-  <library name="mssql-jdbc-7.0.0.jre8">
+  <library name="curd_jdbc_xieyipeng">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/src/libs/mssql-jdbc-7.0.0.jre8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/libs/curd_jdbc_xieyipeng.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

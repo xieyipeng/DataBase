@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="curd_jdbc_xieyipeng">
+    <output-path>$PROJECT_DIR$/out/artifacts/curd_jdbc_xieyipeng</output-path>
+    <root id="archive" name="curd_jdbc_xieyipeng.jar">
+      <element id="module-output" name="Database" />
+    </root>
+  </artifact>
+</component>
